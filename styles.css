@@ -1,0 +1,227 @@
+.navbar .navbar-nav .nav-item .nav-link{
+    float: left;
+    margin-top: 3px;
+    color: black;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover{
+
+    color: #0E7C90;
+}
+
+:root {
+    --margin-search: #8b8a7c;
+    
+}
+
+#form-izq{
+    height: 50px;
+    width: 40px;
+    background-color: #FBFBF7;
+    border-top-left-radius: 60px 37px;
+    border-bottom-left-radius: 60px 37px;
+    border-left: var(--margin-search) solid 1px;
+    border-top: var(--margin-search) solid 1px;
+    border-bottom: var(--margin-search) solid 1px;
+}
+
+#form-der{
+    height: 50px;
+    width: 40px;
+    background-color: #FBFBF7;
+    border-top-right-radius: 60px 37px;
+    border-bottom-right-radius: 60px 37px;
+    border-right: var(--margin-search) solid 1px;
+    border-top: var(--margin-search) solid 1px;
+    border-bottom: var(--margin-search) solid 1px;
+}
+
+#form-center{
+    height: 50px;
+    width: 600px;
+    background-color: #FBFBF7;
+    padding: 5px 5px;
+    border-top: var(--margin-search) solid 1px;
+    border-bottom: var(--margin-search) solid 1px;
+   
+}
+
+#input-search{
+    border: none;
+    background-color: #FBFBF7;
+    width: 600px;
+}
+
+#imagen-carrito{
+    margin-top: 10px;
+    margin-left: 7px;
+    width: 25px;
+    height: 25px;
+}
+
+#main-nav{
+    background-color: white;
+}
+
+.navbar{
+    background-color: white !important;
+    box-shadow: 8px 2px #888888;
+}
+
+.clasesina{
+    background-color: yellowgreen;
+}
+
+.clasesina:hover{
+    background-color: red;
+}
+
+.jumbotron{
+    background-image: url('https://img-b.udemycdn.com/notices/home_banner/image_udlite/7cf844b2-4371-45ea-9ef5-e10ea212eac2.jpg')
+}
+
+#main-learn-search{
+    background-color: white;
+    width: 440px;
+    height: 242px;
+    padding-top: 34px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-family: "Segoe Ui";
+    font-weight: 600;
+    color:#3C3B37;
+}
+
+#main-learn-search-input{
+    margin-top: 10px;
+    height: 48px;
+    border: var(--margin-search) solid 1px;
+}
+
+.container{
+    max-width: 1350px !important;
+}
+
+.main-courses-display{
+    width: 100%;
+    height: 500px;
+    padding-left: 24px;
+    padding-top: 25px;
+    font-family: "Segoe Ui";
+    color:#3C3B36;
+}
+
+.nav .nav-item p{
+    margin:2px 10px;
+}
+
+.nav{
+    padding-bottom: 15px !important;
+    border-bottom: var(--margin-search) solid 1px;
+}
+
+#tachado{
+    text-decoration: line-through;
+}
+
+.course-list{
+    
+}
+
+.col-sm{
+    margin-top:10px;
+    margin-left: -23px;
+}
+
+.card .card-body{
+    height:230px;
+}
+
+.card .card-body .card-text{
+  font-size: 13px;
+}
+
+#banner-recomendaciones{
+    height: 285px;
+    padding-top: 50px;
+    background: url(https://s.udemycdn.com/browse_components/shared-assets/purple-intersect.svg) repeat-x #6e1a52;
+}
+
+.boton{
+    border-radius: 4px;
+    width:125px;
+    border: 1px solid white;
+    text-align: center;
+    color:white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 695px;
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-bottom: 6px;
+    padding-right: 6px;
+}
+
+
+#titulo-banner{
+    font-family: "Segoe Ui";
+    color:white;
+    font-size: 32px;
+    font-weight:700;
+    text-align: center;
+}
+
+#parrafo-banner{
+    font-family: "Segoe Ui";
+    font-size: 20px;
+    color:white;
+    text-align: center;
+    font-weight: 400;
+}
+
+.card .card-body2{
+    height:75px;
+}
+
+.card .card-body2 .card-title2{
+    font-family: "Segoe Ui";
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+.div-instructor{
+    padding-left: 330px;
+}
+
+#imagen-instructor{
+    float: left;
+}
+
+.volverte-instructor{
+    float: left;
+    width: 400px;
+    margin-left: 150px;
+    margin-top: 115px;
+    font-family: "Segoe Ui";
+}
+
+#titulo-instructor{
+    font-size: 32px;
+    line-height: 39px;
+}
+
+#parrafo-instructor{
+    font-size: 19px;
+    line-height: 27px;
+    font-weight:400;
+    color:#3c3b37;
+}
+
+#boton-instructor{
+    font-family: "Segoe Ui";
+    font-size:16px;
+    color:#ffffff;
+    line-height:20px;
+    font-weight: 700;
+}
